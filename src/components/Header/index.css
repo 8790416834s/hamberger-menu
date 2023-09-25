@@ -1,0 +1,44 @@
+.header-container {
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu-icon {
+  color: black;
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+.sm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 60vh;
+  width: 50vw;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu {
+  background-color: transparent;
+  border-width: 0px;
+}
+.close {
+  background-color: transparent;
+  border-width: 0px;
+}
+.home {
+  height: 50px;
+  width: 50px;
+  color: #616e7c;
+}
+.about {
+  height: 50px;
+  width: 50px;
+  color: #616e7c;
+}
